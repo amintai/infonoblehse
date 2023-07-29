@@ -11,7 +11,7 @@ export default function DefaultLayout({
   children,
 }: {
   children: React.ReactNode
-}) {  
+}) {
 
   useEffect(() => {
     AOS.init({
@@ -24,6 +24,8 @@ export default function DefaultLayout({
 
   return (
     <>
+      <link rel="icon" href="../../public/favicon.ico" sizes="any" />
+
       <main className="grow">
 
         {children}
