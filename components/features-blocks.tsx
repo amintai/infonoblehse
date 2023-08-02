@@ -5,7 +5,7 @@ export default function FeaturesBlocks() {
   const services = [
     {
       title: 'Environmental Health Services',
-      paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      paragraph: 'Environmental Health Services safeguard communities through proactive measures for a healthier planet.',
       icon: <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
         <g fill="none" fillRule="evenodd">
           <rect className="fill-current text-violet-600" width="64" height="64" rx="32" />
@@ -20,7 +20,7 @@ export default function FeaturesBlocks() {
     },
     {
       title: 'Fire Safety Services',
-      paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      paragraph: 'Fire Safety Services ensure lives and properties are protected through comprehensive fire prevention and response measures.',
       icon: <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
         <g fill="none" fillRule="evenodd">
           <rect className="fill-current text-violet-600" width="64" height="64" rx="32" />

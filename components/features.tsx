@@ -4,9 +4,9 @@ import { useState, useRef, useEffect } from 'react'
 import { Transition } from '@headlessui/react'
 import Image from 'next/image'
 import FeaturesBg from '@/public/images/features-bg.png'
-import EHS from '@/public/images/ehs.png';
-import HR from '@/public/images/HR.png';
-import FireSaftey from '@/public/images/fire_saftey.png';
+import EHS from '@/public/images/ehs-new.png';
+import HR from '@/public/images/HR-PhotoRoom-new.png';
+import FireSaftey from '@/public/images/fire_saftey-new.png';
 
 import FeaturesElement from '@/public/images/features-element.png'
 
@@ -25,7 +25,7 @@ export default function Features() {
   }, []) 
 
   return (
-    <section className="relative">
+    <section id='explore' className="relative">
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div className="absolute inset-0 bg-gray-100 pointer-events-none mb-16" aria-hidden="true"></div>

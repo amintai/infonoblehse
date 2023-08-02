@@ -4,7 +4,7 @@ import Form from './form'
 const ContactUs = () => {
 
   return (
-    <div className="relative flex flex-col lg:flex-row justify-between items-center">
+    <div id="contact" className="relative flex flex-col lg:flex-row justify-between items-center">
       <div className="text-center lg:text-left lg:max-w-xl">
         <h3 className="h3 text-white mb-2">Contact Us</h3>
         <p className="text-gray-300 text-lg mb-6">Get in touch with us! Use our simple and user-friendly 'Contact Us' form to share your name, email, and message. We'd love to hear from you!</p>
