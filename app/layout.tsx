@@ -14,6 +14,9 @@ const inter = Inter({
 export const metadata = {
   title: 'Infonoblehse',
   description: 'One step solution for HR, EHS, Industrial hygiene, Fire Saftey',
+  icons:{
+    icon : '/app/favicon.ico'
+  }
 }
 
 export default function RootLayout({
@@ -23,7 +26,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <link rel="icon" href="../public/favicon.ico" sizes="any" />
+      <link rel="icon" href="/app/favicon.ico" sizes="any" />
       <body className={`${inter.variable} font-inter antialiased bg-white text-gray-900 tracking-tight`}>
         <div className="flex flex-col min-h-screen overflow-hidden supports-[overflow:clip]:overflow-clip">
           <Header />
