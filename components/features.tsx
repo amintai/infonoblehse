@@ -11,7 +11,7 @@ import FireSaftey from '@/public/images/fire_saftey-new.png';
 import FeaturesElement from '@/public/images/features-element.png'
 
 export default function Features() {
-  
+
   const [tab, setTab] = useState<number>(1)
 
   const tabs = useRef<HTMLDivElement>(null)
@@ -22,7 +22,7 @@ export default function Features() {
 
   useEffect(() => {
     heightFix()
-  }, []) 
+  }, [])
 
   return (
     <section id='explore' className="relative">
@@ -37,7 +37,8 @@ export default function Features() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4">Explore the solutions</h1>
-            <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+            <p className="text-xl text-gray-600">
+              Infonoblehse is specializes in providing comprehensive solutions in environmental health, fire safety, and human resource management, ensuring a safer workplace while promoting sustainability and employee well-being..</p>
           </div>
 
           {/* Section content */}
@@ -47,9 +48,9 @@ export default function Features() {
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
                 <h3 className="h3 mb-3">Our Solutions</h3>
-                <p className="text-xl text-gray-600"> 
+                <p className="text-xl text-gray-600">
 
-</p>
+                </p>
               </div>
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
@@ -91,7 +92,7 @@ export default function Features() {
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">HR Payroll Services
 
-</div>
+                    </div>
                     <div className="text-gray-600">Simplify your HR and Payroll processes with our comprehensive HR Payroll Services. From accurate payroll management to employee time tracking and benefits administration,</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -119,10 +120,10 @@ export default function Features() {
                     leaveFrom="opacity-100 translate-y-0"
                     leaveTo="opacity-0 -translate-y-16"
                     beforeEnter={() => heightFix()}
-                    unmount={false}                     
+                    unmount={false}
                   >
                     <div className="relative inline-flex flex-col">
-                      
+
                       <Image className="md:max-w-none mx-auto rounded" src={EHS} width={500} height="462" alt="Features bg" />
                       {/* <Image className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width={500} height="44" alt="Element" style={{ top: '30%' }} /> */}
                     </div>
@@ -139,7 +140,7 @@ export default function Features() {
                     leaveFrom="opacity-100 translate-y-0"
                     leaveTo="opacity-0 -translate-y-16"
                     beforeEnter={() => heightFix()}
-                    unmount={false}                     
+                    unmount={false}
                   >
                     <div className="relative inline-flex flex-col">
                       <Image className="md:max-w-none mx-auto rounded" src={FireSaftey} width={500} height="462" alt="Features bg" />
@@ -158,7 +159,7 @@ export default function Features() {
                     leaveFrom="opacity-100 translate-y-0"
                     leaveTo="opacity-0 -translate-y-16"
                     beforeEnter={() => heightFix()}
-                    unmount={false}                     
+                    unmount={false}
                   >
                     <div className="relative inline-flex flex-col">
                       <Image className="md:max-w-none mx-auto rounded" src={HR} width={500} height="462" alt="Features bg" />
